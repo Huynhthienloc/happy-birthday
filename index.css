@@ -1,0 +1,77 @@
+body {
+  font-family: 'Gideon Roman', cursive;
+}
+
+#header {
+  background-color: #56BBF1;
+  height: 20rem;
+}
+
+#header .container {
+  padding: 5rem;
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+}
+
+#header .candle-1 {
+  height: 8%;
+  position: absolute;
+  top: 10px;
+}
+
+#header .candle-2 {
+  height: 8%;
+  position: absolute;
+  right: 1px;
+  top: 16rem;
+}
+
+#header .candle-3 {
+  height: 8%;
+  position: absolute;
+  right: 1px;
+  bottom: 42rem;
+}
+
+#header .candle-4 {
+  height: 8%;
+  position: absolute;
+  top: 16rem;
+  left: 2px;
+}
+
+#card {
+  background-color: #5EE6EB;
+  background-size: 25%;
+  border: #56BBF1 dotted;
+  padding: 10%;
+}
+
+#card .container {
+  position: relative;
+  text-align: center;
+  padding: 30% 25%;
+  height: 58rem;
+  width: 60rem;
+  background-color: white;
+  background-image: url(imgs/birthdaycard.jpg);
+  background-position: center;
+}
+
+#card .container .birthday-boy {
+  position: absolute;
+  left: 100px;
+  width: 20%;
+  height: 20%;
+}
+
+#card .container .wishes {
+  font-size: 1.5rem;
+}
+
+#card .container .signature {
+  font-size: 2rem;
+  color: red;
+}
+/*# sourceMappingURL=index.css.map */
